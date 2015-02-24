@@ -1,0 +1,24 @@
+Common css tags
+
+font-size: 16px;
+font-weight: bold;
+font-style: italic;
+line-height : 1.5;
+margin: 10px 20px 30px 40px;
+padding: 10px 20px 30px 40px;
+border: 1px solid #222;
+border-radius: 4px;
+
+/* fix the box model
+ * --------------------------- */
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+
+body{
+  font-size              : 1rem; /* about 16 pixels */
+  margin                 : 0;
+  text-rendering         : optimizeLegibility;
+  -webkit-font-smoothing : antialiased;
+}
+
