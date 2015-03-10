@@ -20,3 +20,29 @@
   height: 200px;
 
 */
+
+aside,footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+footer{
+  font-size: 24px;
+  background-color: yellow;
+}
+
+h1{
+  color: grey;
+  font-size: 80px;
+}
+
+footer h1{
+  color: red;
+  font-size: 24px;
+}
+
+aside footer h1{
+  color: black;
+  background-color: yellow;
+}

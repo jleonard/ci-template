@@ -1,0 +1,36 @@
+main{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.horizontal-box > div{
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(32,189,240);
+}
+
+code{
+  background-color: beige;
+  color: red;
+  font-size: 1.25em;
+}
+
+section{
+  border: 1px solid #d6d6d6;
+  padding: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.box-model .horizontal-box > div{
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.bootstrap-grid-example [class*="col-"]{
+  min-height: 160px;
+  border: 1px solid rgb(32,189,240);
+}
