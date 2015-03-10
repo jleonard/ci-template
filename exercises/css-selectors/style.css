@@ -1,0 +1,16 @@
+main{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.box{
+  width: 4rem;
+  height: 4rem;
+  background-color: #f90;
+}
+
+code{
+  background-color: beige;
+  color: red;
+  font-size: 1.25em;
+}
